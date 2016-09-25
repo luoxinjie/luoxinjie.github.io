@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AwesomeAndroidReverseEngineeringTools</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+ 
+ 
+ 
+ 
+
+ 
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ 
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+ 
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+ 
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+ 
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ 
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+ 
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+ 
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+ 
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+ 
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+ 
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h3>1. <a href="https://github.com/JesusFreke/smali">SMALI/BAKSMALI</a></h3>
+<p>smali/baksmali is an assembler/disassembler for the dex format used by dalvik, Android’s Java VM implementation. The syntax is loosely based on Jasmin’s/dedexer’s syntax, and supports the full functionality of the dex format (annotations, debug info, line info, etc.)</p>
+<h3>2. <a href="https://github.com/swdunlop/AndBug">ANDBUG</a></h3>
+<p>AndBug is a debugger targeting the Android platform’s Dalvik virtual machine intended for reverse engineers and developers. It uses the same interfaces as Android’s Eclipse debugging plugin, the Java Debug Wire Protocol (JDWP) and Dalvik Debug Monitor (DDM) to permit users to hook Dalvik methods, examine process state, and even perform changes.</p>
+<h3>3. <a href="https://github.com/androguard/androguard">ANDROGUARD</a></h3>
+<p>Androguard is a full python tool to play with Android files.</p>
+<ul>
+<li>DEX, ODEX</li>
+<li>APK</li>
+<li>Android’s binary xml</li>
+<li>Android resources</li>
+<li>Disassemble DEX/ODEX bytecodes</li>
+<li>Decompiler for DEX/ODEX files</li>
+</ul>
+<h3>4. <a href="https://ibotpeaches.github.io/Apktool/">APKTOOL</a></h3>
+<p>A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications; it makes possible to debug smali code step by step. Also it makes working with an app easier because of project-like file structure and automation of some repetitive tasks like building apk, etc.</p>
+<p>Features:</p>
+<ul>
+<li>Disassembling resources to nearly original form (including resources.arsc, classes.dex, 9.png. and XMLs)</li>
+<li>Rebuilding decoded resources back to binary APK/JAR</li>
+<li>Organizing and handling APKs that depend on framework resources</li>
+<li>Smali Debugging (Removed in 2.1.0 in favor of IdeaSmali)</li>
+<li>Helping with repetitive tasks</li>
+</ul>
+<h3>5. <a href="https://github.com/appknox/AFE">ANDROID FRAMEWORK FOR EXPLOITATION</a></h3>
+<p>Android Framework for Exploitation is a framework for exploiting android based devices and applications.</p>
+<h3>6. <a href="https://github.com/iSECPartners/Android-KillPermAndSigChecks">BYPASS SIGNATURE AND PERMISSION CHECKS FOR IPCS</a></h3>
+<p>This tool leverages Cydia Substrate to bypass signature and permission checks for IPCs.</p>
+<h3>7. <a href="https://github.com/iSECPartners/Android-OpenDebug">ANDROID OPENDEBUG</a></h3>
+<p>This tool leverages Cydia Substrate to make all applications running on the device debuggable; once installed any application will let a debugger attach to them.</p>
+<h3>8. <a href="http://siis.cse.psu.edu/dare/index.html">DARE</a></h3>
+<p>Dare is a project which aims at enabling Android application analysis. The Dare tool retargets Android applications in .dex or .apk format to traditional .class files. These .class files can then be processed by existing Java tools, including decompilers. Thus, Android applications can be analyzed using a vast range of techniques developed for traditional Java applications.</p>
+<h3>9. <a href="https://github.com/pxb1988/dex2jar">DEX2JAR</a></h3>
+<p>Tools to work with android .dex and java .class files.</p>
+<h3>10. <a href="https://github.com/google/enjarify">ENJARIFY</a></h3>
+<p>Enjarify is a tool for translating Dalvik bytecode to equivalent Java bytecode. This allows Java analysis tools to analyze Android applications.</p>
+<h3>11. <a href="http://dedexer.sourceforge.net/">DEDEXER</a></h3>
+<p>Dedexer is a disassembler tool for DEX files. DEX is a format introduced by the creators of the Android platform. The format and the associated opcode set is in distant relationship with the Java class file format and Java bytecodes. Dedexer is able to read the DEX format and turn into an “assembly-like format”. This format was largely influenced by the Jasmin syntax but contains Dalvik opcodes. For this reason, Jasmin is not able to compile the generated files.</p>
+<h3>12. <a href="https://github.com/sysdream/fino">FINO</a></h3>
+<p>An Android Dynamic Analysis Tool.</p>
+<h3>13. <a href="http://varaneckas.com/jad/">JAD</a></h3>
+<p>Jad is a Java decompiler.</p>
+<h3>14. <a href="https://github.com/java-decompiler/jd-gui">JD-GUI</a></h3>
+<p>JD-GUI is a standalone graphical utility that displays Java source codes of “.class” files. You can browse the reconstructed source code with the JD-GUI for instant access to methods and fields.</p>
+<h3>15. <a href="https://github.com/Konloch/bytecode-viewer">BYTECODE VIEWER</a></h3>
+<p>Bytecode Viewer is an Advanced Lightweight Java Bytecode Viewer, GUI Java Decompiler, GUI Bytecode Editor, GUI Smali, GUI Baksmali, GUI APK Editor, GUI Dex Editor, GUI APK Decompiler, GUI DEX Decompiler, GUI Procyon Java Decompiler, GUI Krakatau, GUI CFR Java Decompiler, GUI FernFlower Java Decompiler, GUI DEX2Jar, GUI Jar2DEX, GUI Jar-Jar, Hex Viewer, Code Searcher, Debugger and more.</p>
+<p>It’s written completely in Java, and it’s open sourced. It’s currently being maintained and developed by Konloch.</p>
+<p>There is also a plugin system that will allow you to interact with the loaded classfiles, for example you can write a String deobfuscator, a malicious code searcher, or something else you can think of.</p>
+<p>You can either use one of the pre-written plugins, or write your own. It supports groovy scripting. Once a plugin is activated, it will execute the plugin with a ClassNode ArrayList of every single class loaded in BCV, this allows the user to handle it completely using ASM.</p>
+
+</body>
+</html>
+
