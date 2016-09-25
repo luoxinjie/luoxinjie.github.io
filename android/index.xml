@@ -2554,7 +2554,7 @@ img {
 					&lt;/span&gt;
 							
 						&lt;h1 class=&#34;post-title&#34;&gt;
-							&lt;a href=&#34;https://github.com/RogerGold/AndroidNotes/blob/master/Keeping_a_ViewGroup_reference.md&#34; rel=&#34;bookmark&#34; target=&#34;_blank&#34;&gt;
+							&lt;a href=&#34;https://github.com/RogerGold/AndroidNotes/blob/master/LeakCanary.md&#34; rel=&#34;bookmark&#34; target=&#34;_blank&#34;&gt;
 						      用 LeakCanary 检测内存泄漏
 							&lt;/a&gt;
 						&lt;/h1&gt;
