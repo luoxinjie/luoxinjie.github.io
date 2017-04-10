@@ -2,27 +2,27 @@
     "rssresponse": [
         {          
                 "name": "songshuhui",
-                "rss": "  "http://songshuhui.net/feed","             
+                "rss": "http://songshuhui.net/feed"           
         },
         {
               "name": "scipark",
-                "rss":  "http://www.scipark.net/feed/"  
+                "rss": "http://www.scipark.net/feed/"  
         },
         {
              "name": "matrix67",
-                "rss":  "http://www.matrix67.com/blog/feed"
+                "rss": "http://www.matrix67.com/blog/feed"
         },
         {
                "name": "timesofisrael",
-                "rss":   "http://cn.timesofisrael.com/feed/"  
+                "rss":  "http://cn.timesofisrael.com/feed/"  
         },
         {
                "name": "coolshell",
-                "rss":   "http://coolshell.cn/feed"  
+                "rss":  "http://coolshell.cn/feed"  
         },
         {
                "name": "importnew",
-                "rss":   "http://www.importnew.com/feed"
+                "rss":  "http://www.importnew.com/feed"
         },
         {
               "name": "Pratik Butani",
@@ -34,7 +34,7 @@
         },
         {
                 "name": "androidcentral",
-                "rss":    "http://www.androidcentral.com/feed  
+                "rss":  "http://www.androidcentral.com/feed  
         }
     ]
 }
