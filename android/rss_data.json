@@ -1,56 +1,40 @@
 {
     "rssresponse": [
         {          
-                "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"             
+                "name": "songshuhui",
+                "rss": "  "http://songshuhui.net/feed","             
+        },
+        {
+              "name": "scipark",
+                "rss":  "http://www.scipark.net/feed/"  
+        },
+        {
+             "name": "matrix67",
+                "rss":  "http://www.matrix67.com/blog/feed"
+        },
+        {
+               "name": "timesofisrael",
+                "rss":   "http://cn.timesofisrael.com/feed/"  
+        },
+        {
+               "name": "coolshell",
+                "rss":   "http://coolshell.cn/feed"  
+        },
+        {
+               "name": "importnew",
+                "rss":   "http://www.importnew.com/feed"
         },
         {
               "name": "Pratik Butani",
                 "rss": "pratik13butani@gmail.com"   
         },
         {
-             "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
+               "name": "raizlabs",
+                "rss": "https://www.raizlabs.com/dev/feed/"
         },
         {
-               "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-               "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-               "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-              "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-               "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-                "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-                "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-                "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-               "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
-        },
-        {
-                "name": "Pratik Butani",
-                "rss": "pratik13butani@gmail.com"   
+                "name": "androidcentral",
+                "rss":    "http://www.androidcentral.com/feed  
         }
     ]
 }
