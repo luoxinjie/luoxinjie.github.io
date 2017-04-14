@@ -1,0 +1,29 @@
+{
+    "urllist": [
+        {          
+                "title": "motalks",
+                "descript": "慢慢来， 比较快--默默个人博客",   
+                "url":"http://motalks.cn/"
+        },
+        {
+                "title": "chiuki",
+                "descript": "Android is my bread-and-butter, so that's the focus of my tech talks.",   
+                "url":"http://chiuki.github.io/"
+        },
+        {
+                "title": "移动周刊",
+                "descript": "CSDN移动周刊，萃取每周最精华的移动开发内容，内容涵盖最新产品、人物访谈、技术分享，每周三发送。",   
+                "url":"http://letter.csdn.net/news/newsletter/index/1"
+        },
+        {
+                "title": "importnew",
+                "descript": "ImportNew 专注于 Java 技术分享。",   
+                "url":"http://www.importnew.com/" 
+        },
+        {
+                "title": "泡在网上的日子",
+                "descript": "安卓开发终极指南: 50多个初高级开发资源（译）",   
+                "url":"http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0321/7700.html"
+        }
+    ]
+}
