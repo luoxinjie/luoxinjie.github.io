@@ -24,6 +24,11 @@
                 "title": "泡在网上的日子",
                 "descript": "安卓开发终极指南: 50多个初高级开发资源（译）",   
                 "url":"http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0321/7700.html"
+        },
+        {
+                "title": "javapractices",
+                "descript": "offers concise presentations of Java practices, tasks, and designs, illustrated with syntax-highlighted code examples. ",   
+                "url":"http://www.javapractices.com/home/HomeAction.do"
         }
     ]
 }
