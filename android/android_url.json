@@ -39,6 +39,11 @@
                 "title": "Android Development Tutorial",
                 "descript": "Android is an operating system for mobile phones, tablets, TVs and similar devices. ",   
                 "url":"http://tutorials.jenkov.com/android/index.html"
+        },
+         {
+                "title": "javaranch",
+                "descript": "A FRIENDLY PLACE TO LEARN JAVA PROGRAMMING. ",   
+                "url":"http://javaranch.com/"
         }
     ]
 }
