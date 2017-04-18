@@ -29,6 +29,16 @@
                 "title": "javapractices",
                 "descript": "offers concise presentations of Java practices, tasks, and designs, illustrated with syntax-highlighted code examples. ",   
                 "url":"http://www.javapractices.com/home/HomeAction.do"
+        },
+          {
+                "title": "Building Hybrid Android Apps with Java and JavaScript",
+                "descript": "Build HTML5-based hybrid applications for Android with a mix of native Java and JavaScript components, without using third-party libraries and wrappers such as PhoneGap or Titanium. This concise, hands-on book takes you through the entire process, from setting up your development environment to deploying your product to an app store. ",   
+                "url":"https://www.safaribooksonline.com/library/view/building-hybrid-android/9781449361907/"
+        },
+        {
+                "title": "Android Development Tutorial",
+                "descript": "Android is an operating system for mobile phones, tablets, TVs and similar devices. ",   
+                "url":"http://tutorials.jenkov.com/android/index.html"
         }
     ]
 }
