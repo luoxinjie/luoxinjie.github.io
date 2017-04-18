@@ -44,6 +44,11 @@
                 "title": "javaranch",
                 "descript": "A FRIENDLY PLACE TO LEARN JAVA PROGRAMMING. ",   
                 "url":"http://javaranch.com/"
+        },
+          {
+                "title": "artima developer",
+                "descript": "Best practices in software developement. ",   
+                "url":"http://www.artima.com/index.jsp"
         }
     ]
 }
