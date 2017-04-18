@@ -49,6 +49,11 @@
                 "title": "artima developer",
                 "descript": "Best practices in software developement. ",   
                 "url":"http://www.artima.com/index.jsp"
+        },
+        {
+                "title": "Java Tutorial",
+                "descript": "Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. ",   
+                "url":"https://www.tutorialspoint.com/java/index.htm"
         }
     ]
 }
