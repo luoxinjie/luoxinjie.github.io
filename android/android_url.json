@@ -54,6 +54,16 @@
                 "title": "Java Tutorial",
                 "descript": "Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. ",   
                 "url":"https://www.tutorialspoint.com/java/index.htm"
+        },
+        {
+                "title": "JavaTpoint",
+                "descript": "JavaTpoint offers Summer Internship Training on Java, Hadoop, Data Analytics, R Programming, SAP, Android, .Net, PHP, Python, Oracle, Seleninum, Linux, C++ and many more technologies in Delhi/NCR, India.",   
+                "url":"https://www.javatpoint.com/"
+        },
+        {
+                "title": "javaworld",
+                "descript": "JavaWorld is the original independent resource for Java developers, architects, and managers. ",   
+                "url":"http://www.javaworld.com/"
         }
     ]
 }
