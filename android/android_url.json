@@ -64,6 +64,16 @@
                 "title": "javaworld",
                 "descript": "JavaWorld is the original independent resource for Java developers, architects, and managers. ",   
                 "url":"http://www.javaworld.com/"
+        },
+         {
+                "title": "java成神之路",
+                "descript": "java 学习图谱. ",   
+                "url":"http://www.imooc.com/article/2967"
+        },
+          {
+                "title": "马伟奇个人博客",
+                "descript": "马伟奇个人android博客. ",   
+                "url":"http://www.jianshu.com/u/53e5012c55a3"
         }
     ]
 }
