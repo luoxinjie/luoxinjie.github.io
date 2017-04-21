@@ -74,6 +74,11 @@
                 "title": "马伟奇个人博客",
                 "descript": "马伟奇个人android博客. ",   
                 "url":"http://www.jianshu.com/u/53e5012c55a3"
-        }
+        },
+            {
+                "title": "CSDN个人博客",
+                "descript": "Android Telephony分析. ",   
+                "url":"http://blog.csdn.net/linyongan"
+           }
     ]
 }
