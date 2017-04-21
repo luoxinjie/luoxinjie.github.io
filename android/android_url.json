@@ -79,6 +79,11 @@
                 "title": "CSDN个人博客",
                 "descript": "Android Telephony分析. ",   
                 "url":"http://blog.csdn.net/linyongan"
+           },
+           {
+                "title": "Java面试问题列表",
+                "descript": "最近5年133个Java面试问题列表. ",   
+                "url":"http://www.importnew.com/17232.html"
            }
     ]
 }
