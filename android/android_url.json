@@ -89,6 +89,11 @@
                 "title": "干货集中营",
                 "descript": "每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频. ",   
                 "url":"http://gank.io/"
+           },
+           {
+                "title": "codeproject",
+                "descript": "CodeProject is a community of Software development and Design developers joined together with certain common goals. ",   
+                "url":"https://www.codeproject.com/"
            }
     ]
 }
