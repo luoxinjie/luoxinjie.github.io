@@ -99,6 +99,16 @@
                 "title": "Working with XML on Android",
                 "descript": "Learn to build Android applications that can work with XML from the Internet. ",   
                 "url":"https://www.ibm.com/developerworks/library/x-android/"
+           },
+            {
+                "title": "Java development",
+                "descript": "Boost your Java™ IQ to meet the demands of today's enterprise. ",   
+                "url":"https://www.ibm.com/developerworks/learn/java/"
+           },
+            {
+                "title": "James blog",
+                "descript": "This blog covers numerous different topics related to JVM Languages and Internals. ",   
+                "url":"http://blog.jamesdbloom.com/"
            }
     ]
 }
