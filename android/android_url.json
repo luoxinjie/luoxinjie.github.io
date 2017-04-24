@@ -114,6 +114,11 @@
                 "title": "google Codelabs",
                 "descript": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience. ",   
                 "url":"http://clmirror.storage.googleapis.com/index.html"
+           },
+           {
+                "title": "IBM developerworks",
+                "descript": "IBM developerworks blog. ",   
+                "url":"https://www.ibm.com/developerworks/community/blogs/roller-ui/homepage?lang=en"
            }
     ]
 }
