@@ -109,6 +109,11 @@
                 "title": "James blog",
                 "descript": "This blog covers numerous different topics related to JVM Languages and Internals. ",   
                 "url":"http://blog.jamesdbloom.com/"
+           },
+           {
+                "title": "google Codelabs",
+                "descript": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience. ",   
+                "url":"http://clmirror.storage.googleapis.com/index.html"
            }
     ]
 }
