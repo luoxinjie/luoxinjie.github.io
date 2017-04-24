@@ -94,6 +94,11 @@
                 "title": "codeproject",
                 "descript": "CodeProject is a community of Software development and Design developers joined together with certain common goals. ",   
                 "url":"https://www.codeproject.com/"
+           },
+            {
+                "title": "Working with XML on Android",
+                "descript": "Learn to build Android applications that can work with XML from the Internet. ",   
+                "url":"https://www.ibm.com/developerworks/library/x-android/"
            }
     ]
 }
