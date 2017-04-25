@@ -119,6 +119,17 @@
                 "title": "IBM developerworks",
                 "descript": "IBM developerworks blog. ",   
                 "url":"https://www.ibm.com/developerworks/community/blogs/roller-ui/homepage?lang=en"
+           },
+           {
+                "title": "Programcreek",
+                "descript": "about jave and python. ",   
+                "url":"http://www.programcreek.com/"
+           },
+           {
+                "title": "Stackoverflow",
+                "descript": "a big Q&A web. ",   
+                "url":"http://stackoverflow.com/"
            }
+        
     ]
 }
