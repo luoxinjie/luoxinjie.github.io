@@ -129,6 +129,11 @@
                 "title": "Stackoverflow",
                 "descript": "a big Q&A web. ",   
                 "url":"http://stackoverflow.com/"
+           },
+           {
+                "title": "Java2s",
+                "descript": "all about code. ",   
+                "url":"http://www.java2s.com/"
            }
         
     ]
