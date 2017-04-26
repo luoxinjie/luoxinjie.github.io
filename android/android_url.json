@@ -139,6 +139,26 @@
                 "title": "廖雪峰的网站",
                 "descript": "java, JS, python,git学习。",   
                 "url":"http://www.liaoxuefeng.com/"
+           },
+            {
+                "title": "Advanced-Java-Tutorials",
+                "descript": "In this section you will find the Java topics that should be part of Advanced Java study course.",   
+                "url":"http://www.roseindia.net/java/Advanced-Java-Tutorials.shtml"
+           },
+          {
+                "title": "Richard G Baldwin Programming Tutorials",
+                "descript": "Advanced Java Programming Tutorial .",   
+                "url":"http://www.dickbaldwin.com/tocadv.htm"
+           },
+            {
+                "title": "Java Tutorial",
+                "descript": "Java Tutorial basic.",   
+                "url":"https://www.tutorialspoint.com/java/"
+           },
+             {
+                "title": "Java Performance Tuning Guide",
+                "descript": "Java performance tuning guide – various tips on improving performance of your Java code.",   
+                "url":"http://java-performance.info/"
            }
         
     ]
