@@ -134,6 +134,11 @@
                 "title": "Java2s",
                 "descript": "all about code. ",   
                 "url":"http://www.java2s.com/"
+           },
+           {
+                "title": "廖雪峰的网站",
+                "descript": "java, JS, python,git学习。",   
+                "url":"http://www.liaoxuefeng.com/"
            }
         
     ]
