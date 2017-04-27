@@ -159,6 +159,11 @@
                 "title": "Java Performance Tuning Guide",
                 "descript": "Java performance tuning guide – various tips on improving performance of your Java code.",   
                 "url":"http://java-performance.info/"
+           },
+             {
+                "title": "Javatpoint",
+                "descript": "program languane like java android c++ and so on.",   
+                "url":"https://www.javatpoint.com/java-tutorial"
            }
         
     ]
