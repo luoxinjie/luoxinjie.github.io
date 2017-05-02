@@ -164,6 +164,11 @@
                 "title": "Javatpoint",
                 "descript": "program languane like java android c++ and so on.",   
                 "url":"https://www.javatpoint.com/java-tutorial"
+           },
+            {
+                "title": "Benjamin Winterberg",
+                "descript": "blog about Web and Mobile Development with Java, JavaScript, Kotlin, React and React Native.",   
+                "url":"http://winterbe.com/"
            }
         
     ]
